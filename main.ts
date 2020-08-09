@@ -1,3 +1,10 @@
+input.onButtonPressed(Button.A, function () {
+    if (input.lightLevel() > 5) {
+        basic.showString("B")
+    } else {
+        basic.showString("D")
+    }
+})
 let shake = 0
 basic.showString("shake")
 basic.forever(function () {
