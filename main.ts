@@ -1,8 +1,8 @@
-let jump = 0
-basic.showString("jump")
+let shake = 0
+basic.showString("shake")
 basic.forever(function () {
     if (input.isGesture(Gesture.Shake)) {
-        jump += 1
-        basic.showString("" + (`${jump}`))
+        shake += 1
+        basic.showString("" + (`${shake}`))
     }
 })
