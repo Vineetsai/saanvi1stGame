@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    if (input.lightLevel() > 5) {
+    if (input.lightLevel() > 125) {
         basic.showString("B")
     } else {
         basic.showString("D")
